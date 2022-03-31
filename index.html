@@ -146,10 +146,10 @@
                         EmaIT s.r.o.<br>
                         Líščie Nivy 25<br>
                         821 08 Bratislava<br><br>
-                        <a class="link" href="mailto:info-emait@gmail.com">
+                        <a class="link" href="mailto:info.emait@gmail.com">
                             <i class="ph-icons ph-envelope-simple"></i>
                             &nbsp;
-                            <span>info-emait@gmail.com</span>
+                            <span>info.emait@gmail.com</span>
                         </a>
                     </address>
                 </div>
@@ -165,11 +165,11 @@
                     <h6 class="mdc-typography--headline6">Základné informácie</h6>
                     <dl class="footer__description">
                         <dt>IČO</dt>
-                        <dd>54 496 551</dd>
+                        <dd>54496551</dd>
                         <dt>Banka</dt>
-                        <dd>TODO</dd>
+                        <dd>Fio banka, a.s.</dd>
                         <dt>IBAN</dt>
-                        <dd>TODO</dd>
+                        <dd>SK31 8330 0000 0021 0216 7724</dd>
                     </dl>
                     <p class="footer__nfo">
                         Spoločnosť je zapísaná v obchodnom registri Okresného súdu Bratislava I. 
@@ -199,7 +199,7 @@
 
             doc.querySelector("#submitMessage").addEventListener("click", function () {
                 var href = [
-                    "mailto:info-emait@gmail.com?",
+                    "mailto:info.emait@gmail.com?",
                     "subject=" + encodeURIComponent(doc.querySelector("input[name='name']").value + " <" + doc.querySelector("input[name='email']").value + ">"),
                     "&body=" + encodeURIComponent(doc.querySelector("textarea[name='message']").value)
                 ].join("");
