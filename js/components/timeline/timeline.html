@@ -1,0 +1,36 @@
+﻿<div class="timeline">
+    <h1 class="projects__title mdc-typography--headline1" data-bind="text: title"></h1>
+    <!-- ko if: items().length -->
+    <ul data-bind="foreach: items">
+        <li class="timeline__card">
+            <div class="timeline__card-content">
+                <h3 class="mdc-typography--headline3">
+                    <span data-bind="text: title"></span>
+                    <!-- ko if: $data.subtitle -->
+                        <br><small data-bind="text: subtitle"></small>
+                    <!-- /ko -->
+                </h3>
+                <!-- ko if: $data.start -->
+                    <h3 class="mdc-typography--subtitle2">
+                        <span data-bind="text: start"></span>
+                        <!-- ko if: $data.end -->
+                        &rarr;&nbsp;<span data-bind="text: end"></span>
+                        <!-- /ko -->
+                    </h3>
+                <!-- /ko -->
+                <!-- ko if: $data.description -->
+                <p data-bind="html: description"></p>
+                <!-- /ko -->
+                <!-- ko if: $data.tags && $data.tags.length -->
+                <div class="mdc-chip-set" data-bind="foreach: tags">
+                    <span class="mdc-chip mdc-ripple-upgraded">
+                        <span class="mdc-chip__ripple"></span>
+                        <span class="mdc-chip__text" data-bind="text: $data"></span>
+                    </span>
+                </div>
+                <!-- /ko -->
+            </div>
+        </li>
+    </ul>
+    <!-- /ko -->
+</div>

@@ -1,0 +1,117 @@
+﻿.timeline {
+    background-color: var(--mdc-theme-surface);
+    padding: 48px;
+    border-radius: .5rem;
+}
+
+.timeline__title {
+    text-align: center;
+}
+
+.timeline ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline__card {
+    position: relative;
+}
+
+.timeline__card:nth-child(odd) {
+    padding: 30px 0 30px 30px;
+}
+
+.timeline__card:nth-child(even) {
+    padding: 30px 30px 30px 0;
+}
+
+.timeline__card:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    border: solid var(--mdc-theme-secondary);
+}
+
+.timeline__card:nth-child(odd):before {
+    left: 0;
+    top: -5px;
+    bottom: -5px;
+    border-width: 5px 0 5px 5px;
+    border-radius: 50px 0 0 50px;
+}
+
+.timeline__card:nth-child(even):before {
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-width: 5px 5px 5px 0;
+    border-radius: 0 50px 50px 0;
+}
+
+.timeline__card:first-child:before {
+    border-top: 0;
+    border-top-left-radius: 0;
+}
+
+.timeline__card:last-child:nth-child(odd):before {
+    border-bottom: 0;
+    border-bottom-left-radius: 0;
+}
+
+.timeline__card:last-child:nth-child(even):before {
+    border-bottom: 0;
+    border-bottom-right-radius: 0;
+}
+
+.timeline__card:after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    background: var(--mdc-theme-icon);
+    width: 10px;
+    height: 10px;
+    left: -6px;
+    border-radius: 50%;
+    top: 58px;
+    border: 5px solid var(--mdc-theme-secondary);
+}
+
+.timeline__card:nth-child(even):after {
+    left: auto;
+    right: -6px;
+}
+
+.timeline__card .mdc-typography--headline3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.timeline__card .mdc-typography--headline3 small {
+    color: var(--mdc-theme-text-secondary-on-dark);
+}
+
+.timeline__card:nth-child(even) .mdc-typography--headline3 {
+    text-align: right;
+}
+
+.timeline__card .mdc-typography--subtitle2 {
+    margin-top: 8px;
+    color: var(--mdc-theme-text-hint-on-dark);
+}
+
+.timeline__card:nth-child(even) .mdc-typography--subtitle2 {
+    text-align: right;
+}
+
+.timeline__card p {
+    color: var(--mdc-theme-text-secondary-on-dark);
+}
+
+.timeline__card-content {
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .2);
+}
