@@ -22,37 +22,37 @@ require({
         "msu/components/intro/intro": {
             title: "EmaIT",
             description: [
-                "Sme tím skúsených odborníkov, ktorí sa špecializujú na vývoj softvéru a riešení na mieru",
-                "Naším cieľom je poskytovať inovatívne a kvalitné softvérové produkty, ktoré pomáhajú našim klientom dosiahnuť ich obchodné ciele"
+                "We are a team of experienced professionals specializing in custom software and solution development",
+                "Our goal is to deliver innovative, high-quality software products that help our clients achieve their business objectives"
             ],
             image: "img/logo.png",
             action: {
-                text: "Náš repozitár",
+                text: "View our repo",
                 icon: "code",
                 url: "https://github.com/info-emait?tab=repositories"
             }
         },
         "msu/components/projects/projects": {
-            title: "Naše projekty",
+            title: "Out projects",
             items: [{
                 title: "query gantt",
-                description: "Rozšírenie pre Azure DevOps, ktoré umožňuje zobraziť ľubovolnú query ako Gantt chart.",
+                description: "An extension for Azure DevOps that enables displaying any query as a Gantt chart.",
                 url: "https://marketplace.visualstudio.com/items?itemName=emait.querygantt",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'><path fill='currentColor' d='M216 42h-82V24a6 6 0 0 0-12 0v18H40a14 14 0 0 0-14 14v120a14 14 0 0 0 14 14h43.52l-24.21 30.25a6 6 0 0 0 9.38 7.5L98.88 190h58.24l30.19 37.75a6 6 0 0 0 9.38-7.5L172.48 190H216a14 14 0 0 0 14-14V56a14 14 0 0 0-14-14m2 134a2 2 0 0 1-2 2H40a2 2 0 0 1-2-2V56a2 2 0 0 1 2-2h176a2 2 0 0 1 2 2Zm-116-56v24a6 6 0 0 1-12 0v-24a6 6 0 0 1 12 0m32-16v40a6 6 0 0 1-12 0v-40a6 6 0 0 1 12 0m32-16v56a6 6 0 0 1-12 0V88a6 6 0 0 1 12 0'/></svg>"
             }, {
                 title: "tags manager",
-                description: "Rozšírenie pre Azure DevOps, ktoré umožňuje spravovať tag-y v rámci projektu.",
+                description: "An extension for Azure DevOps that enables managing tags within a project.",
                 url: "https://marketplace.visualstudio.com/items?itemName=emait.tagsmanager",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><path fill='currentColor' d='M241.91 137.42L142.59 38.1a13.94 13.94 0 0 0-9.9-4.1H40a6 6 0 0 0-6 6v92.69a13.94 13.94 0 0 0 4.1 9.9l99.32 99.32a14 14 0 0 0 19.8 0l84.69-84.69a14 14 0 0 0 0-19.8m-8.49 11.31l-84.69 84.69a2 2 0 0 1-2.83 0L46.59 134.1a2 2 0 0 1-.59-1.41V46h86.69a2 2 0 0 1 1.41.59l99.32 99.31a2 2 0 0 1 0 2.83M94 84a10 10 0 1 1-10-10a10 10 0 0 1 10 10'/></svg>"
             }, {
                 title: "draw.io",
-                description: "Rozšírenie pre Azure DevOps, ktoré umožňuje vytvárať a editovať draw.io diagramy v rámci projektu.",
+                description: "An extension for Azure DevOps that enables creating and editing draw.io diagrams within a project.",
                 url: "https://marketplace.visualstudio.com/items?itemName=emait.drawio",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'> 	<path d='M0 0h256v256H0z' fill='none' /> 	<path fill='currentColor' d='M222 64a30 30 0 1 0-36 29.4V112a10 10 0 0 1-10 10H80a10 10 0 0 1-10-10V93.4a30 30 0 1 0-12 0V112a22 22 0 0 0 22 22h42v28.6a30 30 0 1 0 12 0V134h42a22 22 0 0 0 22-22V93.4A30.05 30.05 0 0 0 222 64M46 64a18 18 0 1 1 18 18a18 18 0 0 1-18-18m100 128a18 18 0 1 1-18-18a18 18 0 0 1 18 18m46-110a18 18 0 1 1 18-18a18 18 0 0 1-18 18' /> </svg>"
             }]
         },
         "msu/components/contactform/contactform": {
-            title: "Napíšte nám",
+            title: "Contact us",
             target: "info.emait@gmail.com"
         },
         "msu/components/map/map": {
@@ -63,15 +63,15 @@ require({
         "msu/components/menu/menu": {
             title: "EmaIT",
             description: [
-                "Tvorba webových a mobilných aplikácií, webových portálov, stránok a elektronických obchodov"
+                "Development of web and mobile applications, web portals, websites, and e-commerce solutions"
             ],
             image: "img/logo.png",
             items: [
-                { target: "about", text: "O nás" },
-                { target: "projects", text: "Naše projekty" },
-                { target: "contact", text: "Napíšte nám" },
-                { target: "map", text: "Nájdite nás" },
-                { target: "invoice", text: "Fakturačné údaje" }
+                { target: "about", text: "About us" },
+                { target: "projects", text: "Our projects" },
+                { target: "contact", text: "Contact us" },
+                { target: "map", text: "Find us" },
+                { target: "invoice", text: "Invoicing details" }
             ]
         }
     }
