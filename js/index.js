@@ -33,7 +33,7 @@ require({
             }
         },
         "msu/components/projects/projects": {
-            title: "Out projects",
+            title: "Our projects",
             items: [{
                 title: "query gantt",
                 description: "An extension for Azure DevOps that enables displaying any query as a Gantt chart.",
