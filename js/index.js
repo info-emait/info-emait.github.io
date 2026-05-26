@@ -46,7 +46,7 @@ require({
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='256' height='256' viewBox='0 0 256 256'><path fill='currentColor' d='M241.91 137.42L142.59 38.1a13.94 13.94 0 0 0-9.9-4.1H40a6 6 0 0 0-6 6v92.69a13.94 13.94 0 0 0 4.1 9.9l99.32 99.32a14 14 0 0 0 19.8 0l84.69-84.69a14 14 0 0 0 0-19.8m-8.49 11.31l-84.69 84.69a2 2 0 0 1-2.83 0L46.59 134.1a2 2 0 0 1-.59-1.41V46h86.69a2 2 0 0 1 1.41.59l99.32 99.31a2 2 0 0 1 0 2.83M94 84a10 10 0 1 1-10-10a10 10 0 0 1 10 10'/></svg>"
             }, {
                 title: "draw.io",
-                description: "Rozšírenie pre Azure DevOps, ktoré umožňuje vytvárať a editovať draw.io diagrami v rámci projektu.",
+                description: "Rozšírenie pre Azure DevOps, ktoré umožňuje vytvárať a editovať draw.io diagramy v rámci projektu.",
                 url: "https://marketplace.visualstudio.com/items?itemName=emait.drawio",
                 icon: "<svg xmlns='http://www.w3.org/2000/svg' width='1em' height='1em' viewBox='0 0 256 256'> 	<path d='M0 0h256v256H0z' fill='none' /> 	<path fill='currentColor' d='M222 64a30 30 0 1 0-36 29.4V112a10 10 0 0 1-10 10H80a10 10 0 0 1-10-10V93.4a30 30 0 1 0-12 0V112a22 22 0 0 0 22 22h42v28.6a30 30 0 1 0 12 0V134h42a22 22 0 0 0 22-22V93.4A30.05 30.05 0 0 0 222 64M46 64a18 18 0 1 1 18 18a18 18 0 0 1-18-18m100 128a18 18 0 1 1-18-18a18 18 0 0 1 18 18m46-110a18 18 0 1 1 18-18a18 18 0 0 1-18 18' /> </svg>"
             }]
